@@ -5,13 +5,154 @@
   <meta charset="UTF-8">
   <title>FriendFinder</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" >
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" >
 </head>
 <body>
+  <div class="container">
+    <div class="jumbotron">
+    <h1><strong>Survey Questions</strong></h1>
+    <hr>
+    <h2><strong>About You</strong></h2>
+    <h4>Name (Required)</h4>
+    <input type="text" id="name" class="form-control" required>
+    <h4>Url Link to Photo Image (Required)</h4>
+    <input type="text" id="photo" class="form-control" required>
+    </div>
+    <div class="jumbotron">
+      <div class="row">
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 1</strong></h3>
+            <h4>Do you like drinking?</h4>
+            <select class="chosen-select" id="q1">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 2</strong></h3>
+            <h4>Do you like smoking?</h4>
+            <select class="chosen-select" id="q2">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 3</strong></h3>
+            <h4>Do you like movies?</h4>
+            <select class="chosen-select" id="q3">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 4</strong></h3>
+            <h4>Do you like video games?</h4>
+            <select class="chosen-select" id="q4">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 5</strong></h3>
+            <h4>Do you like the outdoors?</h4>
+            <select class="chosen-select" id="q5">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 6</strong></h3>
+            <h4>Do you work out?</h4>
+            <select class="chosen-select" id="q6">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 7</strong></h3>
+            <h4>Are you an honest person?</h4>
+            <select class="chosen-select" id="q7">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 8</strong></h3>
+            <h4>Do you like to read?</h4>
+            <select class="chosen-select" id="q8">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 9</strong></h3>
+            <h4>Do you like sunny weather?</h4>
+            <select class="chosen-select" id="q9">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+        <div class="col-lg-6 pt-4">
+            <h3><strong>Question 10</strong></h3>
+            <h4>Do you like the beach?</h4>
+            <select class="chosen-select" id="q10">
+              <option value=""></option>
+              <option value="1">1 (Strongly Disagree)</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5 (Strongly Agree)</option>
+            </select>
+        </div>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit">
+     Submit</button>
+    </div>
+  </div>
 </body>
 </html>
