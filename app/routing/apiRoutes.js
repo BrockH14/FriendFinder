@@ -32,4 +32,3 @@ app.post('/api/friends', function (req, res) {
     tableData.push(req.body);
 });
 }
-
